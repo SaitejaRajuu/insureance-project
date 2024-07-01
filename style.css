@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Roboto;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(245, 19, 19, 0.1);
+}
+
+.main {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    background-color: #6edf05;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #a5e383;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.menu ul li a:hover {
+    background-color: #17d754;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 100;
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insta-handle a {
+    color: #a5e383;
+    text-decoration: none;
+}
+
+.insta-handle a:hover {
+    color: #17d754;
+}
+.menuu{
+    text-align: center;
+    font-weight: solid;
+    color: blanchedalmond;
+    display: inline-flex;
+}
+.container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .text {
+    flex: 1; /* Take up remaining space */
+    padding: 20px; /* Add some padding for spacing */
+  }
+  
+  .image {
+    flex: 1; /* Take up remaining space */
+    text-align: center; /* Center the image horizontally */
+  }
+  
+  .image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+  }
